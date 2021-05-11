@@ -3,9 +3,6 @@ library(rvest)
 library(curl)
 library(writexl)
 
-#horario
-Sys.time()
-
 #scrapping da pagina
 html_data<-read_html('https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao/resource/ef3bd0b8-b605-474b-9ae5-c97390c197a8')
 links <- html_data %>% html_nodes("a")
@@ -40,9 +37,7 @@ for (i in ufs) {
   
 }
 
-setwd('C:/Users/User/Desktop/SEPLAG/covid')
 write_xlsx(vacina,'vacinacao_geral.xlsx')
 
-Sys.time()
 
 
