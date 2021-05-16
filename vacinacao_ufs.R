@@ -28,7 +28,7 @@ for (i in ufs) {
   
   df <- df %>%
     group_by(estabelecimento_uf,vacina_fabricante_nome,vacina_descricao_dose,
-             paciente_idade,paciente_enumSexoBiologico) %>%
+             paciente_idade,paciente_enumsexobiologico) %>%
     summarise('Count'=n())
   
   print(df$estabelecimento_uf[1])
