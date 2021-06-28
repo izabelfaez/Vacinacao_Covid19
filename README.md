@@ -8,7 +8,7 @@ Extração dos microdados da vacinação da covid-19, gera uma planilha com o to
 4. Idade
 5. Sexo
 
-Ideal para contrução da pirâmide etária da vacinação. 
+Ideal para construção da pirâmide etária da vacinação. 
 
 Como são extraídos os dados de todas as UFS o script demora para rodar, em maio/21 demorava cerca de 1h30, conforme a base aumenta o tempo também deve aumentar.
 
